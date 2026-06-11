@@ -10,11 +10,13 @@ If you are stuck and need some help, you can browse [our documentation](https://
         <source media="(prefers-color-scheme: light)" srcset="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo_A365-Horiz-Dk.svg">
         <img alt="Altium 365 Logo" height="40px" src="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo_A365-Horiz-Dk.svg">
     </picture>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <picture>
         <img alt="Altium Designer Logo" height="40px" src="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/AD-logo-horizontal-BLK.svg">
     </picture>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <picture>
-        <img alt="Octopart Logo" height="40px" src="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo-Octopart.svg">
+        <img alt="Octopart Logo" height="30px" src="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo-Octopart.svg">
     </picture>
 </div>
 
