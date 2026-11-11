@@ -25,7 +25,7 @@ This is the public engineering home of the [Altium Developer Center](https://dev
 | | Surface | Use it to… | Start here |
 |:-:|---|---|---|
 | <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/A365_label.svg" height="20" alt=""> | **[Altium 365 API](#altium-365-api)** | Read and act on workspace data such as projects, BOMs, components and design reviews, from your own apps, scripts and integrations | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/365-api) · [Reference](https://docs.developer.altium.com/platform-api-docs/) |
-| <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/ad_logo.png" height="20" alt=""> | **[Altium Designer SDK](#altium-designer-sdk)** | Extend Altium Designer with your own commands, panels and automation | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk) · [Template](https://github.com/AltiumDeveloper/ad-extension-template) · [Reference](https://docs.developer.altium.com/ad-sdk-docs/) |
+| <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/ad_logo.png" height="20" alt=""> | **[Altium Designer SDK](#altium-designer-sdk)** | Extend Altium Designer with your own commands, panels and automation | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk) · [Reference](https://docs.developer.altium.com/ad-sdk-docs/) |
 | <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/Octopart-Logo_Gear-Blue.svg" height="20" alt=""> | **[Octopart API](#octopart-api)** | Search parts and get pricing, stock, lifecycle and specs across distributors | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/octopart-api) · [Reference](https://docs.developer.altium.com/octopart-api-docs/) |
 
 ### Building with AI assistants?
@@ -67,14 +67,10 @@ A .NET SDK for building Altium Designer extensions.
 
 **Explore:** [SDK reference](https://docs.developer.altium.com/ad-sdk-docs/) · [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk)
 
-> [!TIP] 
-> **Start a new extension in one command:** [**ad-extension-template**](https://github.com/AltiumDeveloper/ad-extension-template) scaffolds a complete C# extension with `dotnet new ad-extension`, and **hot-reloads your code while Altium Designer keeps running**: no reinstall, no restart.
-
-
 | Project | What it gives you |
 |---|---|
-| [**ad-extension-template**](https://github.com/AltiumDeveloper/ad-extension-template) | `dotnet new` template and hot-reload host for Altium Designer extensions. Edit, build, and your new code runs in seconds. [NuGet](https://www.nuget.org/packages/Altium.Designer.Extension.Templates) |
 | [**ad-sdk-docs**](https://github.com/AltiumDeveloper/ad-sdk-docs) | Source of the SDK API reference. Issues and suggestions are welcome. |
+| [**ad-extension-template**](https://github.com/AltiumDeveloper/ad-extension-template) | The template scaffolds a complete C# extension, and hot-reloads your code while Altium Designer keeps running: no reinstall, no restart. Edit, build, and your new code runs in seconds. |
 
 ## Octopart API
 
