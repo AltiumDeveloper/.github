@@ -25,7 +25,7 @@ This is the public engineering home of the [Altium Developer Center](https://dev
 | | Surface | Use it to… | Start here |
 |:-:|---|---|---|
 | <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/A365_label.svg" height="20" alt=""> | **[Altium 365 API](#altium-365-api)** | Read and act on workspace data such as projects, BOMs, components and design reviews, from your own apps, scripts and integrations | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/365-api) · [Reference](https://docs.developer.altium.com/platform-api-docs/) |
-| <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/ad_logo.png" height="20" alt=""> | **[Altium Designer SDK](#altium-designer-sdk)** | Extend Altium Designer with your own commands, panels and automation | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk) · [Reference](https://docs.developer.altium.com/ad-sdk-docs/) |
+| <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/ad_logo.png" height="20" alt=""> | **[Altium Designer SDK](#altium-designer-sdk)** | Extend Altium Designer with your own commands, panels and automation | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk) · [Template](https://github.com/AltiumDeveloper/ad-extension-template) · [Reference](https://docs.developer.altium.com/ad-sdk-docs/) |
 | <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/Octopart-Logo_Gear-Blue.svg" height="20" alt=""> | **[Octopart API](#octopart-api)** | Search parts and get pricing, stock, lifecycle and specs across distributors | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/octopart-api) · [Reference](https://docs.developer.altium.com/octopart-api-docs/) |
 
 ### Building with AI assistants?
@@ -50,7 +50,7 @@ These shared building blocks sit underneath all three surfaces.
 
 A GraphQL API over Altium 365 workspaces, cross-linked with the [Common Data Model](https://docs.developer.altium.com/cdm/).
 
-**Explore:** [API reference](https://docs.developer.altium.com/platform-api-docs/) · [Voyager schema explorer](https://eur.365.altium.com/napi/gateway/ui/voyager) · [GraphQL playground](https://eur.365.altium.com/napi/gateway/graphql/) · [Product docs](https://www.altium.com/documentation/altium-developer-center/altium-365/api)
+**Explore:** [API reference](https://docs.developer.altium.com/platform-api-docs/) · [Voyager schema explorer](https://eur.365.altium.com/api/voyager) · [GraphQL playground](https://eur.365.altium.com/api/graphql/) · [Product docs](https://www.altium.com/documentation/altium-developer-center/altium-365/api)
 
 | Project | What it gives you |
 |---|---|
@@ -63,12 +63,17 @@ A GraphQL API over Altium 365 workspaces, cross-linked with the [Common Data Mod
 
 ## Altium Designer SDK
 
-A .NET SDK for building Altium Designer extensions. It covers the `SCH`, `PCB`, `EDP`, `DXP`, `ComponentLib` and `Embedded` namespaces.
+A .NET SDK for building Altium Designer extensions. 
 
-**Explore:** [SDK reference](https://docs.developer.altium.com/ad-sdk-docs/) · [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk) · [Product docs](https://www.altium.com/documentation/altium-developer-center/altium-designer)
+**Explore:** [SDK reference](https://docs.developer.altium.com/ad-sdk-docs/) · [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk)
+
+> [!TIP] 
+> **Start a new extension in one command:** [**ad-extension-template**](https://github.com/AltiumDeveloper/ad-extension-template) scaffolds a complete C# extension with `dotnet new ad-extension`, and **hot-reloads your code while Altium Designer keeps running**: no reinstall, no restart.
+
 
 | Project | What it gives you |
 |---|---|
+| [**ad-extension-template**](https://github.com/AltiumDeveloper/ad-extension-template) | `dotnet new` template and hot-reload host for Altium Designer extensions. Edit, build, and your new code runs in seconds. [NuGet](https://www.nuget.org/packages/Altium.Designer.Extension.Templates) |
 | [**ad-sdk-docs**](https://github.com/AltiumDeveloper/ad-sdk-docs) | Source of the SDK API reference. Issues and suggestions are welcome. |
 
 ## Octopart API
@@ -92,4 +97,4 @@ A GraphQL API for electronic component supply data: parts, offers, pricing, stoc
 - **Security issues:** please don't open a public issue. Follow our [security policy](https://github.com/AltiumDeveloper/.github/blob/main/SECURITY.md).
 - **Contributing:** read [CONTRIBUTING](https://github.com/AltiumDeveloper/.github/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/AltiumDeveloper/.github/blob/main/CODE_OF_CONDUCT.md).
 
-<sub>Altium, Altium 365, Altium Designer and Octopart are trademarks of Altium. Code in each repository is provided under that repository's license.</sub>
+<sub>Altium, Altium 365, Altium Designer and Octopart are trademarks of Altium. See <a href="https://www.altium.com/copyrights-and-trademarks">Copyrights &amp; Trademarks</a>. Code in each repository is provided under that repository's license.</sub>
