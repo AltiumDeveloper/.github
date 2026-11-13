@@ -18,6 +18,8 @@
 [![Documentation](https://img.shields.io/badge/docs-developer_center-117BBE?style=flat-square)](https://www.altium.com/documentation/altium-developer-center)
 [![Forum](https://img.shields.io/badge/forum-ask_a_question-2d2d2d?style=flat-square)](https://forum.live.altium.com/#/forums/100271)
 
+</div>
+
 This is the public engineering home of the [Altium Developer Center](https://developer.altium.com/): SDKs, API references, tools and samples for the three Altium developer surfaces.
 
 | | Surface | Use it to… | Start here |
