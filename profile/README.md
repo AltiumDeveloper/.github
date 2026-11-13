@@ -18,22 +18,6 @@
 [![Documentation](https://img.shields.io/badge/docs-developer_center-117BBE?style=flat-square)](https://www.altium.com/documentation/altium-developer-center)
 [![Forum](https://img.shields.io/badge/forum-ask_a_question-2d2d2d?style=flat-square)](https://forum.live.altium.com/#/forums/100271)
 
-<div align="center">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo_A365-Horiz-Lt.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo_A365-Horiz-Dk.svg">
-        <img alt="Altium 365 Logo" height="40px" src="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo_A365-Horiz-Dk.svg">
-    </picture>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <picture>
-        <img alt="Altium Designer Logo" height="40px" src="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/AD-logo-horizontal-BLK.svg">
-    </picture>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <picture>
-        <img alt="Octopart Logo" height="30px" src="https://github.com/AltiumDeveloper/.github/blob/main/profile/static/A20-Altium-Logo-Octopart.svg">
-    </picture>
-</div>
-
 This is the public engineering home of the [Altium Developer Center](https://developer.altium.com/): SDKs, API references, tools and samples for the three Altium developer surfaces.
 
 | | Surface | Use it to… | Start here |
