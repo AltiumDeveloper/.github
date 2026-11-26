@@ -28,10 +28,17 @@ This is the public engineering home of the [Altium Developer Center](https://dev
 | <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/ad_logo.png" height="20" alt=""> | **[Altium Designer SDK](#altium-designer-sdk)** | Extend Altium Designer with your own commands, panels and automation | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/ad-sdk) · [Reference](https://docs.developer.altium.com/ad-sdk-docs/) |
 | <img src="https://raw.githubusercontent.com/AltiumDeveloper/.github/main/profile/static/Octopart-Logo_Gear-Blue.svg" height="20" alt=""> | **[Octopart API](#octopart-api)** | Search parts and get pricing, stock, lifecycle and specs across distributors | [Quick start](https://www.altium.com/documentation/altium-developer-center/quick-starts/octopart-api) · [Reference](https://docs.developer.altium.com/octopart-api-docs/) |
 
-### Building with AI assistants?
+## Bring your designs to AI assistants
 
-All integration surfaces publish an `llms.txt` you can point your coding agent at:
-[Altium 365 API](https://docs.developer.altium.com/platform-api-docs/llms.txt) · [Altium Designer SDK](https://docs.developer.altium.com/ad-sdk-docs/llms.txt) · [Octopart API](https://docs.developer.altium.com/octopart-api-docs/llms.txt)
+Two [Model Context Protocol](https://modelcontextprotocol.io/) servers let Claude, VS Code and other MCP clients read and work on your designs.
+
+| MCP server | Where it runs | What your assistant can do | Docs |
+|---|---|---|---|
+| **Altium Designer MCP Server** | Inside Altium Designer, on your PC | Read the open schematic, run ERC, read project history, leave Altium 365 comments, create schematic symbols | [Reference](https://docs.developer.altium.com/ad-mcp-docs/) |
+| **Altium 365 MCP Server** | In the cloud at `https://mcp.altium.com` | List workspace projects, read and render the schematic of any revision, compare revisions and variants, manage comments | [Reference](https://docs.developer.altium.com/platform-mcp-docs/) |
+
+**Coding with an AI agent?** Every docs site publishes an `llms.txt` you can point it at:
+[Altium 365 API](https://docs.developer.altium.com/platform-api-docs/llms.txt) · [Altium Designer SDK](https://docs.developer.altium.com/ad-sdk-docs/llms.txt) · [Octopart API](https://docs.developer.altium.com/octopart-api-docs/llms.txt) · [Altium Designer MCP](https://docs.developer.altium.com/ad-mcp-docs/llms.txt) · [Altium 365 MCP](https://docs.developer.altium.com/platform-mcp-docs/llms.txt)
 
 ---
 
@@ -71,6 +78,7 @@ A .NET SDK for building Altium Designer extensions.
 |---|---|
 | [**ad-sdk-docs**](https://github.com/AltiumDeveloper/ad-sdk-docs) | Source of the SDK API reference. Issues and suggestions are welcome. |
 | [**ad-extension-template**](https://github.com/AltiumDeveloper/ad-extension-template) | The template scaffolds a complete C# extension, and hot-reloads your code while Altium Designer keeps running: no reinstall, no restart. Edit, build, and your new code runs in seconds. |
+| [**ad-sdk-samples**](https://github.com/AltiumDeveloper/ad-sdk-samples) | 152 complete extensions covering schematic, PCB, libraries, projects, outputs, 3D/STEP and UI. Each one builds and hot-reloads like the template, so copy the closest one and start from there. |
 
 ## Octopart API
 
@@ -88,8 +96,8 @@ A GraphQL API for electronic component supply data: parts, offers, pricing, stoc
 
 ## Get help & get involved
 
-- **Questions and discussion:** the [Altium Developer forum](https://forum.live.altium.com/#/forums/100271), or GitHub Discussions on the repo you're using.
-- **Bugs and feature requests:** open an issue on the relevant repository. See [SUPPORT](https://github.com/AltiumDeveloper/.github/blob/main/SUPPORT.md) for where each kind of request goes.
+- **Questions, API / SDK / MCP problems and feature requests:** the [Altium Developer forum](https://forum.live.altium.com/#/forums/100271).
+- **A mistake in a docs page, reference, sample or library published here:** open an issue on that repository. See [SUPPORT](https://github.com/AltiumDeveloper/.github/blob/main/SUPPORT.md) for where each kind of request goes.
 - **Security issues:** please don't open a public issue. Follow our [security policy](https://github.com/AltiumDeveloper/.github/blob/main/SECURITY.md).
 - **Contributing:** read [CONTRIBUTING](https://github.com/AltiumDeveloper/.github/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/AltiumDeveloper/.github/blob/main/CODE_OF_CONDUCT.md).
 
